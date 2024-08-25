@@ -1,0 +1,34 @@
+.container{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: flex-end; /* flex start come back to normal */
+    flex-wrap: wrap; /* wrap is used to add items and there will be no change in there size and will be appened to next row also*/
+    /* if we use nowrap then any number of items will be fit in 1 row */
+    /* justify content is used to align items only in a row or col but align item is used to align the item in the whole div */
+}
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue ;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+
+.item:nth-child(odd){
+    background-color: lightsalmon;
+}
+
+
+.item:nth-child(even){
+    background-color: palegreen;
+}

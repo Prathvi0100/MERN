@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Mouse Events -->
+    <button onclick="onClickHandler()">Click me</button>
+    <button ondblclick="ondblClickHandler()">Double Click Me</button>
+    <div onmouseover="onMouseOverHandler()" onmouseout="onMouseOutHandler()">Hover over me</div>
+
+    <!-- Keyboard Events -->
+    <input type="text" placeholder="Enter Something" name="" id=""
+        onkeydown="onKeyDownHandler()"
+        onkeyup="onKeyUpHandler()"
+        onkeypress="onKeyPressHandler()"
+        type="text"
+
+    >
+
+    <!-- Form Events -->
+    <form action="" onsubmit="onSubmitHandler()">
+        <input onfocus="onFocusHandler()" onblur="onBlurHandler()" type="text"/>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="inline_event.js"></script>
+</body>
+</html>

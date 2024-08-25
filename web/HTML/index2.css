@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 500px;
+    background-color: blue;
+}
+/*  float attribute in css can be used to align anything to anywhere */
+h5{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: aqua; */
+    /* or */
+     border:2px solid aqua
+     /* MARGIN */
+     margin-bottom: 200px;
+}
+
+button{
+    border-radius: 10px;
+    /* for creating a circle height and width should be same and border radius should be set to 50% */
+}
+
+h6{
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    background-color: yellowgreen;
+    /* shortcut-paddinng: top|right|bottom|left value should be set */
+}

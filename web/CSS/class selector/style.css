@@ -1,0 +1,35 @@
+.main-title{
+    color: blueviolet;
+    text-align: center;
+}
+
+.tagline{
+    color: rgb(152, 87, 7);
+}
+
+#booktitle{
+    color: rgb(88, 18, 154);
+    text-align: center;
+}
+
+/* adjacent selector */
+.Help .assist +p {
+    color: rgb(121, 19, 70);
+}
+
+
+.Links li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+.Links a:link{
+    color: rgb(120, 247, 200);
+    text-decoration: none;
+}
+
+.Links a:hover{
+    color: rgb(237, 189, 108);
+    border-bottom: 1px solid #f39c12 ;
+}

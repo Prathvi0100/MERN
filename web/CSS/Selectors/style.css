@@ -1,0 +1,42 @@
+h1{
+    color: #228b22;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    color: #228b22;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+p{
+    color: #228b22;
+    text-align: center;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+li{
+    border-bottom: 2px solid green;
+    display: inline;
+    color: rgb(105, 64, 10);
+}
+
+a{
+    color: #228b22;
+    text-decoration: none;
+}
+
+::selection{
+    background-color: rgb(164, 231, 98);
+    color: #8b4513;
+}
